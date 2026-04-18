@@ -1,24 +1,24 @@
+import Home from "./Home"
 import Header from "./Header"
-import Mainsection from "./Mainsection"
-import Section from "./Section"
-import Sectiontwo from "./Sectiontwo"
-import Services from "./Services"
-import Testimonial from "./Testimonial"
-import Blogsandnews from "./Blogsandnews"
-import Footer from "./Footer"
+import About from "./About"
+import Blog from "./Blog"
+import Servicepage from "./Servicepage"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
 
   return (
     <>
+    <BrowserRouter>
       <Header/>
-      <Mainsection/>
-      <Section/> 
-      <Sectiontwo/> 
-      <Services/> 
-      <Testimonial/> 
-      <Blogsandnews/> 
-      <Footer/> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/services" element={<Servicepage />} />
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
