@@ -3,6 +3,8 @@ import Header from "./Header"
 import About from "./About"
 import Blog from "./Blog"
 import Servicepage from "./Servicepage"
+import Footer from "./Footer"
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -18,6 +20,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/services" element={<Servicepage />} />
       </Routes>
+      <Footer/> 
+
     </BrowserRouter>
     </>
   )
