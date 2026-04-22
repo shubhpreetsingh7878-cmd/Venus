@@ -13,7 +13,7 @@ const Sectiontwo = () => {
                  <span className='font-semibold font-sans text-base text-gray-500'>build everything</span>
               </div>
               <div>
-                <p className='text-4xl font-bold text-[#081738]'>Build amazing websites and <br /> landing pages with ease</p>
+                <p className='text-4xl font-bold text-[#081738]'>Build amazing websites and <br /> landing pages with ease vishal</p>
                 <p className='mt-8 text-base text-gray-500 font-sans font-bold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua. Quis ipsum <br /> suspendisse ultrices gravida.</p>
                 <div className='w-5/6 mt-10'>
                     <div className='flex justify-between mb-2'>
