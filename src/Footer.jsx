@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="container-fluid bg-[#081738]">
       <div className="container justify-center mx-auto">
-        <div className="grid sm:grid-cols-2 px-25">
+        <div className="grid sm:grid-cols-2 lg:px-25">
           <div className="p-15">
             <div className="flex items-center gap-3">
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
@@ -46,7 +46,7 @@ const Footer = () => {
             <div className="mt-5 mb-3">
               <h1 className="text-gray-500 text-base font-bold">Trusted by</h1>
             </div>
-            <div className="grid sm:grid-cols-2 md:grid-cols-4 items-center">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 items-center space-y-5 sm:space-y-0">
               <img src={google} alt="" className="w-8/12" />
               <img src={juction} alt="" className="w-7/12" />
               <img src={stripe} alt="" className="w-4/12" />
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="border-t-1 border-blue-300" />
-      <div className="grid w-8/12 items-center justify-items-center mx-auto mt-10 sm:grid-cols-2 md:grid-cols-3 ">
+      <div className="grid w-9/12 sm:w-8/12 items-center justify-items-center mx-auto mt-10 sm:grid-cols-2 md:grid-cols-3 ">
           <div>
              <img src={logowhite} alt="" />
              <p className="text-white mt-8 text-4xl font-bold">Ready To Get <br /> Started?</p>

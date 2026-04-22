@@ -17,7 +17,7 @@ const Services = () => {
             </div>
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 text-center ">
-            <div className="p-10 mt-20">
+            <div className="p-10 mt-5 sm:mt-20">
                 <img src={uxdesign1} alt="" className='justify-self-center mb-10' />
                 <p className="text-3xl text-[#081738] font-bold mb-10">UX & Product <br /> Design</p>
                 <p className='text-[16px] font-semibold text-gray-500'>
@@ -26,7 +26,7 @@ const Services = () => {
                 </p>
                  <Getstartedbutton/>
             </div>
-            <div className="p-10 mt-20">
+            <div className="p-10 mt-5 sm:mt-20">
                 <img src={performance} alt="" className='justify-self-center mb-10' />
                 <p className="text-3xl text-[#081738] font-bold mb-10">Performance Optimization</p>
                 <p className='text-[16px] font-semibold text-gray-500'>
@@ -35,7 +35,7 @@ const Services = () => {
                 </p>
                  <Getstartedbutton/>
             </div>
-            <div className="p-10 mt-20">
+            <div className="p-10 mt-5 sm:mt-20">
                 <img src={uxdesign2} alt="" className='justify-self-center mb-10' />
                 <p className="text-3xl text-[#081738] font-bold mb-10">UX & Products <br /> Design</p>
                 <p className='text-[16px] font-semibold text-gray-500'>

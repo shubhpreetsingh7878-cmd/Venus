@@ -7,13 +7,13 @@ const Sectiontwo = () => {
            <div>
               <img src={progress} alt="" className='w-xl justify-self-end mx-10'/>
            </div>
-           <div>
+           <div className='p-10 sm:p-10'>
               <div className='flex items-center gap-2 mb-5'>
                  <div className='bg-green-400 w-3 h-3 rounded-full'></div>
                  <span className='font-semibold font-sans text-base text-gray-500'>build everything</span>
               </div>
               <div>
-                <p className='text-4xl font-bold text-[#081738]'>Build amazing websites and <br /> landing pages with ease vishal</p>
+                <p className='text-4xl font-bold text-[#081738]'>Build amazing websites and <br /> landing pages with ease</p>
                 <p className='mt-8 text-base text-gray-500 font-sans font-bold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua. Quis ipsum <br /> suspendisse ultrices gravida.</p>
                 <div className='w-5/6 mt-10'>
                     <div className='flex justify-between mb-2'>

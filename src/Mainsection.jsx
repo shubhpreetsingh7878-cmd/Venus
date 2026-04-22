@@ -7,7 +7,7 @@ const Mainsection = () => {
   return (
     <div className="container flex justify-center mx-auto">
       <div className="grid max-w-6xl sm:grid-cols-2 items-center mt-20">
-        <div className='p-3'>
+        <div className='p-6 sm:p-3'>
            <div className='flex gap-4 items-center mb-2'>
              <div className='h-3 w-3 bg-green-500 rounded-full py-1'></div><span className='text-sm text-gray-500 font-bold'>build everything</span>
            </div>
@@ -24,7 +24,7 @@ const Mainsection = () => {
           </div>
         </div>
         <div>
-          <img src={hero} alt="" className='w-xl' />
+          <img src={hero} alt="" className='justify-self-center w-10/12 sm:w-xl' />
         </div>
       </div>
     </div>
