@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
               <span className="text-base font-semibold text-white">
-                build by Vishal Singh
+                built by Vishal Singh
               </span>
             </div>
             <h1 className=" text-white text-4xl font-bold mt-10">
