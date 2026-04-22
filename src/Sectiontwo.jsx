@@ -7,7 +7,7 @@ const Sectiontwo = () => {
            <div>
               <img src={progress} alt="" className='w-xl justify-self-end mx-10'/>
            </div>
-           <div className='p-10 sm:p-10'>
+           <div className='p-10 sm:p-10' data-aos='fade-left'>
               <div className='flex items-center gap-2 mb-5'>
                  <div className='bg-green-400 w-3 h-3 rounded-full'></div>
                  <span className='font-semibold font-sans text-base text-gray-500'>build everything</span>

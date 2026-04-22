@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="container-fluid bg-[#081738]">
       <div className="container justify-center mx-auto">
-        <div className="grid sm:grid-cols-2 lg:px-25">
+        <div className="grid sm:grid-cols-2 lg:px-25" data-aos='fade-left'>
           <div className="p-15">
             <div className="flex items-center gap-3">
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
@@ -53,8 +53,8 @@ const Footer = () => {
               <img src={wise} alt="" className="w-4/12" />
             </div>
           </div>
-          <div className="justify-items-center items-center grid py-8">
-            <div className="bg-white w-8/12 rounded-xl p-5 px-13">
+          <div className="justify-items-center items-center grid py-8" >
+            <div className="bg-white w-8/12 rounded-xl p-5 px-13" data-aos='fade-right'>
               <h1 className="text-3xl font-bold text-blue-950">Start the project</h1>
               <form action="">
                 <div className="mt-5 flex gap-4 mb-3">

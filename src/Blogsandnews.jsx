@@ -8,14 +8,14 @@ const Blogsandnews = () => {
   return (
     <div className="container justify-center mx-auto mt-20 max-w-7xl">
         <div className="flex justify-between">
-            <div>
+            <div data-aos='fade-right'>
             <h1 className="text-4xl text-[#081738] text-bold">Latest blog & news</h1>
             </div>
-            <div className='gap-2 flex items-center hover:text-blue-400'>
+            <div className='gap-2 flex items-center hover:text-blue-400' data-aos='fade-left'>
               <button className="text-gray-600 hover:text-blue-500 text-lg cursor-pointer font-semibold">View More</button><span><FaArrowRightLong /></span>
             </div>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 p-2 mt-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 p-2 mt-8" data-aos='fade-up'>
            <div className='p-4 '>
              <img src={blog1} alt="" className='' />
              <div className='space-y-4 mt-8'>
