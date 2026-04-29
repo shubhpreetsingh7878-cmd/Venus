@@ -129,7 +129,7 @@ const Footer = () => {
              </ul>
           </div>
           <div>
-             <p className="text-[16px] font-semibold text-gray-500">© All rights reserved. Made by <span className="cursor-pointer hover:text-blue-800"> GetNextJs Templates</span> • Distributed by ThemeWagon</p>
+             <p className="text-[16px] font-semibold text-gray-500">© All rights reserved. Made by <span className="cursor-pointer hover:text-blue-800">Vishal Singh</span> • Distributed by ThemeWagon</p>
           </div>
        </div>
     </div>
