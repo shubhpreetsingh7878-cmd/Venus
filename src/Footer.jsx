@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="justify-items-center items-center grid py-8" >
-            <div className="bg-white w-8/12 rounded-xl p-5 px-13" data-aos='fade-right'>
+            <div className="bg-white w-8/12 rounded-xl px-4 py-4" data-aos='fade-right'>
               <h1 className="text-3xl font-bold text-blue-950">Start the project</h1>
               <form action="">
                 <div className="mt-5 flex gap-4 mb-3">
@@ -103,9 +103,18 @@ const Footer = () => {
           <div>
             <h1 className="text-white text-2xl font-bold">Subscribe newsletter</h1>
             <p className="text-gray-500 text-xl mt-3">To be updated with all the latest trends and product</p>
-            <div className="mt-5">
-                <input className="bg-white p-4 rounded-s-xl" type="text" placeholder="Email" /><span><button className="bg-blue-500 text-white font-semibold cursor-pointer p-4 rounded-r-xl">Subscribe</button></span>
-            </div>
+           <div className="mt-5 flex flex-col sm:flex-row w-full max-w-md">
+  
+            <input 
+              type="text" 
+              placeholder="Email"
+              className="bg-white p-3 w-full sm:flex-1 rounded-t-xl sm:rounded-l-xl sm:rounded-tr-none outline-none"
+            />
+            
+            <button className="bg-blue-500 text-white font-semibold p-3 w-full sm:w-auto rounded-b-xl sm:rounded-r-xl sm:rounded-bl-none">
+              Subscribe
+            </button>
+          </div>
           </div>
       </div>
        <hr className="border-t-1 mt-2 border-blue-300" />
